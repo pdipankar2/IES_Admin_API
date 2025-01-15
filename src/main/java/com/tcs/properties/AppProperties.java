@@ -13,4 +13,12 @@ public class AppProperties {
 	
 	private HashMap<String, String>msg=new HashMap<>();
 
+	public HashMap<String, String> getMsg() {
+		return msg;
+	}
+
+	public void setMsg(HashMap<String, String> msg) {
+		this.msg = msg;
+	}
+
 }
